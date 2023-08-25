@@ -1,0 +1,1 @@
+O projeto tem como objetivo o mapeamento de assaltos das regiões de SP, com interface de report com login e senha, sendo o report anônimo.
