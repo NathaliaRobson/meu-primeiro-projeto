@@ -1,0 +1,88 @@
+Código CSS do Protótipo:
+
+/* Reset de estilos para garantir uma base consistente */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Fundo cinza */
+}
+
+/* Estilos para o cabeçalho (header) */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0; /* Remover margem */
+  padding: 0; /* Remover preenchimento (padding) */
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos para a seção dos botões acima da imagem */
+#buttons-container {
+  text-align: center; /* Centralizar o conteúdo horizontalmente */
+  margin-top: 20px;
+}
+
+/* Estilos para os botões no cabeçalho */
+.button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 0; /* Remover margem esquerda */
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Transição de cor de fundo */
+}
+
+/* Efeito de hover para os botões */
+.button:hover {
+  background-color: #0056b3; /* Cor de fundo alterada no hover */
+}
+
+/* Estilos para a seção do mapa com a imagem */
+#map-section {
+  text-align: center;
+  position: relative;
+}
+
+#map-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para as seções */
+section {
+  padding: 40px 0; /* Remover preenchimento nas laterais, mas manter em cima e embaixo */
+  background-color: #ccc; /* Fundo cinza */
+  margin: 0; /* Remover margem */
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
