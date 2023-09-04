@@ -1,0 +1,36 @@
+Código HTML do Protótipo:
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Zone</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#safe-zone">SAFE ZONE</a></li>
+                <li><a href="#sao-paulo">De olho em São Paulo</a></li>
+                <li class="button"><a href="#delegacias">DELEGACIAS</a></li>
+                <li class="button"><a href="#sobre-nos">SOBRE NÓS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="buttons-container">
+        <a href="#ver-zonas" class="button">VER ZONAS</a>
+        <a href="#reportar" class="button">REPORTAR</a>
+    </section>
+
+    <section id="map-section">
+        <img src="maps1.jpg" alt="Imagem do Google Maps">
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Safe Zone. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
